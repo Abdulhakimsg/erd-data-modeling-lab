@@ -43,7 +43,6 @@ An ERD diagram, using crow's foot notation, of whatever app you choose.  For exa
 #### 2
 Write the `tables.sql` file for this app. 
 
-### In Pairs or On Your Own:
 (If you found out you made a mistake in your table creation when you run your seed file, or when you are working on your own at all, make sure to coordinate with your partner to fix these errors.)
 
 #### 3
