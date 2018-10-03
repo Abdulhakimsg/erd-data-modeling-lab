@@ -1,0 +1,23 @@
+SELECT shop_products.shop_id, products.name
+FROM products
+INNER JOIN shop_products
+ON (shop_products.product_id = products.id)
+WHERE shop_products.shop_id = 2;
+
+SELECT user_groups.user_id,users.member
+FROM users
+INNER JOIN user_groups
+ON(user_groups.user_id = users.id)
+WHERE user_groups.groups_id = 1;
+
+SELECT * FROM user_groups WHERE groups_id = 1;
+
+INSERT INTO users(member,age) VALUES('tom' , 87)
+
+INSERT INTO shop_products (product_id, shop_id) VALUES (1,2);
+
+SELECT user_groups.user_id,users.member
+FROM users
+INNER JOIN user_groups
+ON (user_groups.user_id = users.id)
+WHERE user_groups.photo_id = 2;
